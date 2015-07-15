@@ -1,0 +1,56 @@
+@import
+  "app";
+
+body {
+  background: $grey-50;
+}
+header {
+  background: $primary-color;
+  padding: 50px 0;
+  h1 {
+    @extend .text-display-3;
+  }
+  h2 {
+    @extend .text-display-1;
+  }
+  h1, h2 {
+    color: $white;
+  }
+}
+.summary {
+  margin-top: 50px;
+}
+.box, .box-white {
+  padding: 20px;
+  margin: {
+    left: 0px !important;
+    right: 0px !important;
+  }
+}
+.box {
+  background: $grey-200;
+}
+.box-white {
+  background: $white;
+}
+h2.demo-headline {
+  @extend .text-headline;
+  color: $primary-color;
+  margin-top: 50px
+}
+.tabs-content {
+  background: $white;
+  padding: 20px;
+}
+.icons {
+  text-align: center;
+}
+.icons i {
+  font-size: 48px;
+  display: inline-block;
+  height: 48px;
+  width: 48px;
+  overflow: hidden;
+  margin: 10px;
+  color: $grey-500;
+}

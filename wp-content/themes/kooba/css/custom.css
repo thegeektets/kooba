@@ -1,0 +1,279 @@
+.logo{
+	padding:10px;
+    position: relative;
+    z-index: 100;
+     top: 0;
+    left: 0;
+
+	}
+.center{
+    text-align: center;
+}
+.zero-padding{
+    padding: 0px;
+}
+.divider{
+      display: none; 
+
+}
+.contact{
+   
+    background-image: url("../images/contact.png");
+    width:100%; 
+    position: relative;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size:   cover;                      /* <------ */
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 1%; 
+      display: block;
+   
+}
+
+.contact-intro{
+    width: 100%;
+    position: relative;
+    padding:5%; 
+    display: block;
+}
+
+
+.about{
+   
+    background-image: url("../images/about.png");
+    width:100%; 
+    position: relative;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size:   cover;                      /* <------ */
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 1%; 
+      display: block;
+   
+}
+
+.about-intro{
+    width: 100%;
+    position: relative;
+    padding:5%; 
+    display: block;
+}
+
+.front{
+    background-image: url("../images/front.png");
+    width:100%; 
+    position: relative;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size:   cover;                      /* <------ */
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 18%; 
+      display: block;
+   
+  
+
+}
+.front-intro{
+    background-color: #D5F0F5;
+    width: 100%;
+    position: relative;
+    padding:5%;  
+    display: block;
+ 
+
+}
+.front-second{
+    width: 100%;
+    position: relative;
+    padding:5%; 
+      display: block;
+   
+
+}
+.front-promise{
+    width: 100%;
+    position: relative;
+    display: block;
+
+
+  
+}
+
+.front-promise-orange{
+    width :100%;
+    color: #fff;
+    background-image: url("../images/reliability_1.png");
+    position: relative;
+    height: auto;
+    min-height: 300px !important;
+    background-repeat: no-repeat;
+    background-size:   cover;                      /* <------ */
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 5%;    
+      display: block;
+
+
+}
+
+.front-promise-orange:hover{
+    width :100%;
+    color: #fff;
+    background-image: url("../images/orange.png");
+    position: relative;
+    height: auto;
+      min-height: 300px !important;
+ 
+    background-repeat: no-repeat;
+    background-size:   cover;                      /* <------ */
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 5%;    
+      display: block;
+
+}
+
+.front-promise-red{
+    width :100%;
+    color: #fff;
+    background-image: url("../images/security_1.png");
+    position: relative;
+    height: auto;
+      min-height: 300px !important;
+ 
+    background-repeat: no-repeat;
+    background-size:   cover;                      /* <------ */
+    background-repeat: no-repeat;
+    background-position: center center;
+   padding: 5%;    
+     display: block;
+
+
+}
+
+.front-promise-red:hover{
+    width :100%;
+    color: #fff;
+    background-image: url("../images/red.png");
+    position: relative;
+    height: auto;
+      min-height: 300px !important;
+ 
+    background-repeat: no-repeat;
+    background-size:   cover;                      /* <------ */
+    background-repeat: no-repeat;
+    background-position: center center;
+   padding: 5%;    
+     display: block;
+
+
+}
+.desc{
+        color: transparent;
+        width: 100%;
+        height: 100%;
+        margin:inherit;
+    
+}
+.desc:hover{
+        color: #fff;
+  
+}
+
+.front-promise-green{
+     width :100%;
+    color: #fff;
+    background-image: url("../images/recovery_1.png");
+    position: relative;
+    height: auto;
+      min-height: 300px !important;
+ 
+    background-repeat: no-repeat;
+    background-size:   cover;                      /* <------ */
+    background-repeat: no-repeat;
+    background-position: center center;
+  padding: 5%;  
+    display: block;
+  
+}
+.front-promise-green:hover{
+     width :100%;
+    color: #fff;
+    background-image: url("../images/green.png");
+    position: relative;
+    height: auto;
+      min-height: 300px !important;
+ 
+    background-repeat: no-repeat;
+    background-size:   cover;                      /* <------ */
+    background-repeat: no-repeat;
+    background-position: center center;
+  padding: 5%;  
+    display: block;
+  
+}
+
+
+.blank{
+    padding: 100px;
+}
+
+.footer-one{
+    width :100%;
+    color: #fff;
+    background-image: url("../images/footer.png");
+    position: relative;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size:   cover;                      /* <------ */
+    background-repeat: no-repeat;
+    background-position: center center;
+   padding: 5%;    
+     display: block;
+}
+.footer-second{
+    width :100%;
+    color: #fff;
+    background-color: #3A535D;
+    position: relative;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size:   cover;                      /* <------ */
+    background-repeat: no-repeat;
+    background-position: center center;
+   padding: 1%;    
+     display: block;
+}
+.footer-last{
+    width :100%;
+    color: #fff;
+    background-color: #000000;
+    display: block;
+    padding: 20px;
+}
+
+.edge::before,
+.edge::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-color: transparent;
+    border-style: solid;
+      border-width: 9em;
+     
+}
+
+
+
+.edge::after {
+    border-radius: 0em;
+    border-width: 9em;
+    border-left-color: rgba(255, 255, 255, 0.6);
+    border-top-color: rgba(255, 255, 255, 0.6);
+    z-index: 1;
+     
+ }
