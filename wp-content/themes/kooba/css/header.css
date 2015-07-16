@@ -1,21 +1,21 @@
 .top-bar-section li:not(.has-form) a:not(.button){
 	background : #fff !important;
-	color:#000;
+	color: #587885;
 }
  .top-bar-section li:not(.has-form) a:not(.button):hover {
-  background: #4DC5DB;
+  background: #4DC5DB !important;
 
-        color:#000;
+        color: #587885;
         }
 
 .top-bar-section li.active:not(.has-form) a:not(.button) {
-   background: #4DC5DB;
+   background: #4DC5DB !important;;
 
   
-	color:#000;
+	color: #587885;
 }
 .top-bar-section li.active:not(.has-form) a:not(.button):hover {
   background: #4DC5DB;
 
-	color:#000;
+	color: #587885;
 }

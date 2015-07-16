@@ -1,0 +1,24 @@
+/* Search Related Styles */
+
+#tshowcasesearch {
+	padding:20px 0px;
+}
+
+.tshowcase-search-label {
+	padding:10px;
+	font-weight: bold;
+}
+
+#tshowcase-categories {
+	margin:0px 10px;
+}
+
+.widget #tshowcase-categories {
+	clear:both;
+	margin:3px 0px;
+	width:90%;
+}
+
+.widget #tshowcasesearch {
+	padding:0px;
+}

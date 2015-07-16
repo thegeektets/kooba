@@ -12,8 +12,11 @@
 ?>
 
 </section>
+<section class="footer">
+  
+
 <footer class="row">
-	<?php do_action( 'foundationpress_before_footer' ); ?>
+  <?php do_action( 'foundationpress_before_footer' ); ?>
 </footer>
 
  <section class='footer-one'> 
@@ -30,26 +33,28 @@
   <section class='footer-second'> 
      <div class="row">
         <div class="large-12 columns">
-       		 <?php dynamic_sidebar( 'footer-widgets' ); ?>
+           <?php dynamic_sidebar( 'footer-widgets' ); ?>
       </div>
       </div>
   </section>
     <section class='footer-last'> 
-     	<div style="float:left;margin-top:-10px">
+      <div class="row">
+      <div style="float:left;margin-top:-10px;font-size:10px;">
           &copy;<?php echo date("Y") ?> KOOBA
       </div>
-      <div style="float:right;margin-top:-10px">
+      <div style="float:right;margin-top:-10px;font-size:10px;">
           PRIVACY POLICY
+      </div>
       </div>
   </section>
 <a class="exit-off-canvas"></a>
 
-	<?php do_action( 'foundationpress_layout_end' ); ?>
-	</div>
+  <?php do_action( 'foundationpress_layout_end' ); ?>
+  </div>
 </div>
 <?php wp_footer(); ?>
 <?php do_action( 'foundationpress_before_closing_body' ); ?>
-
+</section>
  <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/app-min.js"></script>
  <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/app.js"></script>
 

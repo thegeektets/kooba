@@ -9,6 +9,17 @@
 .center{
     text-align: center;
 }
+
+.tshowcase-box-title a {
+  font-size: 16px;
+  color: #fff;
+}
+.tshowcase-single-position {
+  font-size: 14px;
+  font-style: normal;
+  color: #fff;
+}
+
 .zero-padding{
     padding: 0px;
 }
@@ -27,7 +38,10 @@
     background-repeat: no-repeat;
     background-position: center center;
     padding: 1%; 
-      display: block;
+    display: block;
+    /*max-width: 1600px !important; margin:0 auto;*/
+
+
    
 }
 
@@ -36,6 +50,8 @@
     position: relative;
     padding:5%; 
     display: block;
+    /*max-width: 1600px !important; margin:0 auto;*/
+  
 }
 
 
@@ -50,7 +66,9 @@
     background-repeat: no-repeat;
     background-position: center center;
     padding: 1%; 
-      display: block;
+    display: block;
+    /*max-width: 1600px !important; margin:0 auto;*/
+  
    
 }
 
@@ -59,8 +77,26 @@
     position: relative;
     padding:5%; 
     display: block;
+    /*max-width: 1600px !important; margin:0 auto;*/
+  
 }
 
+.about-management-team{
+    width: 100%;
+    position: relative;
+    padding:2%;
+    display: block;
+    background-color: #5FC2D5;
+
+}
+.about-board-team{
+    width: 100%;
+    position: relative;
+    padding:2%;
+    display: block;
+    background-color: #3CB4CB;
+
+}
 .front{
     background-image: url("../images/front.png");
     width:100%; 
@@ -71,8 +107,9 @@
     background-repeat: no-repeat;
     background-position: center center;
     padding: 18%; 
-      display: block;
-   
+    display: block;
+    /*max-width: 1600px !important; margin:0 auto;*/
+  
   
 
 }
@@ -82,14 +119,16 @@
     position: relative;
     padding:5%;  
     display: block;
- 
+    /*max-width: 1600px !important; margin:0 auto;*/
+  
 
 }
 .front-second{
     width: 100%;
     position: relative;
     padding:5%; 
-      display: block;
+    display: block;
+    max-width: 1600px !important; margin:0 auto;
    
 
 }
@@ -97,8 +136,7 @@
     width: 100%;
     position: relative;
     display: block;
-
-
+    /*max-width: 1600px !important; margin:0 auto;*/
   
 }
 
@@ -114,7 +152,7 @@
     background-repeat: no-repeat;
     background-position: center center;
     padding: 5%;    
-      display: block;
+    display: block;
 
 
 }
@@ -125,14 +163,14 @@
     background-image: url("../images/orange.png");
     position: relative;
     height: auto;
-      min-height: 300px !important;
+    min-height: 300px !important;
  
     background-repeat: no-repeat;
     background-size:   cover;                      /* <------ */
     background-repeat: no-repeat;
     background-position: center center;
     padding: 5%;    
-      display: block;
+    display: block;
 
 }
 
@@ -195,7 +233,7 @@
     background-size:   cover;                      /* <------ */
     background-repeat: no-repeat;
     background-position: center center;
-  padding: 5%;  
+    padding: 5%;  
     display: block;
   
 }
@@ -231,8 +269,10 @@
     background-size:   cover;                      /* <------ */
     background-repeat: no-repeat;
     background-position: center center;
-   padding: 5%;    
-     display: block;
+    padding: 5%;    
+    display: block;
+    /*max-width: 1600px !important; margin:0 auto;*/
+  
 }
 .footer-second{
     width :100%;
@@ -244,8 +284,9 @@
     background-size:   cover;                      /* <------ */
     background-repeat: no-repeat;
     background-position: center center;
-   padding: 1%;    
-     display: block;
+    padding: 1%;    
+    display: block;
+    /*max-width: 1600px !important; margin:0 auto; */
 }
 .footer-last{
     width :100%;
@@ -253,6 +294,7 @@
     background-color: #000000;
     display: block;
     padding: 20px;
+    /*max-width: 1600px !important; margin:0 auto;*/
 }
 
 .edge::before,
@@ -263,7 +305,7 @@
     left: 0;
     border-color: transparent;
     border-style: solid;
-      border-width: 9em;
+    border-width: 8em;
      
 }
 
@@ -271,7 +313,7 @@
 
 .edge::after {
     border-radius: 0em;
-    border-width: 9em;
+    border-width: 8em;
     border-left-color: rgba(255, 255, 255, 0.6);
     border-top-color: rgba(255, 255, 255, 0.6);
     z-index: 1;

@@ -29,7 +29,20 @@ get_header(); ?>
 	</div>
 </div>
 </section>
-
+<section class="about-management-team">
+	<div class="row">
+	   <h2 class="center" style="color:#fff;text-size:20px;">Management Team</h2>
+	 
+			<?php echo build_tshowcase('ID','0','0','0','management','active','grid','img-circle,text-center,img-above,2-columns','photo,position,name','false','','true'); ?> 
+	</div>
+</section>
+<section class="about-board-team">
+	<div class="row">
+		 <h2 class="center"  style="color:#fff;text-size:20px;">Board Members</h2>
+	
+		<?php echo build_tshowcase('ID','0','0','0','board','active','grid','img-circle,text-center,img-above,3-columns','photo,position,name','false','','true'); ?> 
+    </div>
+</section>
 <?php get_footer(); ?>
 
       

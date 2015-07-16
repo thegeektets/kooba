@@ -7,8 +7,8 @@ get_header(); ?>
 	<header class='front'>
 	      <div class="row">
 	        <div class="large-12 columns">
-	          <h1 class="center">TOP-TIER</h1>
-	          <h2 class="center">World-class Power & Cooling Enviroment</h2>
+	          <h1 class="center"><strong style="font-size:75px;color:#fff">TOP-TIER</strong></h1>
+	          <h2 class="center" style="font-weight:300;font-size:35px;">World-class Power & Cooling Enviroment</h2>
 	        </div>
 	      </div>
     </header>
@@ -24,6 +24,9 @@ get_header(); ?>
 			<div class="entry-content">
 				<?php the_content(); ?>
 			</div>
+      <?php endwhile; // End the loop ?>
+
+
        </div>
       </div>
   </section>
@@ -56,9 +59,7 @@ get_header(); ?>
 
  
 
-	<?php endwhile; // End the loop ?>
-
-	</div>
+		</div>
 </div>
-
 <?php get_footer(); ?>
+
